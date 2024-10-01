@@ -29,7 +29,7 @@ footer h2 {
   margin-bottom: var(--spacing);
 }
 
-@media (width <= 700px) {
+@media (width >= 700px) {
   footer > .content {
     grid-template-columns: repeat(var(--columns), 1fr);
     grid-template-rows: auto;

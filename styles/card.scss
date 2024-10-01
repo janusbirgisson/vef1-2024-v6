@@ -6,7 +6,7 @@
   width: 100%;
 }
 
-@media (width <= 700px) {
+@media (width >= 700px) {
   .card {
     grid-column: span 5;
   }

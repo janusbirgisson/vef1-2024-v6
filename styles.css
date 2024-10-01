@@ -223,7 +223,7 @@ header,
   background-color: var(--color-background-primary);
 }
 
-@media (width <= 800px) {
+@media (width >= 800px) {
   .wrapper {
     gap: var(--vertical-space-large);
   }
@@ -237,7 +237,7 @@ header,
   margin-bottom: var(--spacing);
 }
 
-@media (width <= 800px) {
+@media (width >= 800px) {
   .wrapper .wrapper-content {
     display: grid;
     grid-template-columns: repeat(var(--columns), 1fr);
@@ -277,7 +277,7 @@ nav ul li {
   text-align: left;
 }
 
-@media (width <= 800px) {
+@media (width >= 800px) {
   nav ul {
     display: block;
   }
@@ -295,7 +295,7 @@ nav ul li {
   border-radius: var(--border-radius-image);
 }
 
-@media (width <= 500px) {
+@media (width >= 500px) {
   .intro {
     flex-direction: row;
   }
@@ -325,7 +325,7 @@ nav ul li {
   width: 100%;
 }
 
-@media (width <= 700px) {
+@media (width >= 700px) {
   .cards > .content {
     grid-template-columns: repeat(calc(var(--columns) - 2), 1fr);
     grid-template-rows: auto;
@@ -338,7 +338,7 @@ nav ul li {
   width: 100%;
 }
 
-@media (width <= 700px) {
+@media (width >= 700px) {
   .card {
     grid-column: span 5;
   }
@@ -424,7 +424,7 @@ footer h2 {
   margin-bottom: var(--spacing);
 }
 
-@media (width <= 700px) {
+@media (width >= 700px) {
   footer > .content {
     grid-template-columns: repeat(var(--columns), 1fr);
     grid-template-rows: auto;
